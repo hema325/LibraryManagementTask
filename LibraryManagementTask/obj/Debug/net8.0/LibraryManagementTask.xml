@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LibraryManagementTask</name>
+    </assembly>
+    <members>
+        <member name="M:LibraryManagementTask.Controllers.AccountController.LoginAsync(LibraryManagementTask.Dtos.Users.LoginDto)">
+            <summary>
+             Get access token.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.AccountController.GetAsync">
+            <summary>
+             Get current user details.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.BooksController.CreateAsync(LibraryManagementTask.Dtos.Books.CreateOrUpdateBookDto)">
+            <summary>
+             Add a new book to the library.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.BooksController.UpdateAsync(System.Int32,LibraryManagementTask.Dtos.Books.CreateOrUpdateBookDto)">
+            <summary>
+            Update an existing book's information.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.BooksController.DeleteAsync(System.Int32)">
+            <summary>
+            Remove a book from the library.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.BooksController.GetByIdAsync(System.Int32)">
+            <summary>
+            Retrieve details of a specific book by ID.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.BooksController.GetAllAsync">
+            <summary>
+            Retrieve a list of all books.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.BorrowingRecordsController.CreateAsync(System.Int32,System.Int32,LibraryManagementTask.Dtos.BorrowingRecords.CreateBorrowingRecordDto)">
+            <summary>
+            Allow a patron to borrow a book.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.BorrowingRecordsController.UpdateAsync(System.Int32,System.Int32,LibraryManagementTask.Dtos.BorrowingRecords.ReturnBorrowingRecordDto)">
+            <summary>
+            Record the return of a borrowed book by a patron.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.BorrowingRecordsController.GetByIdAsync(System.Int32)">
+            <summary>
+            Retrieve details of a specific borrowing record by ID.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.BorrowingRecordsController.GetAllAsync">
+            <summary>
+            Retrieve a list of all borrowing records.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.PatronsController.CreateAsync(LibraryManagementTask.Dtos.Patrons.CreateOrUpdatePatronDto)">
+            <summary>
+             Add a new patron to the system.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.PatronsController.UpdateAsync(System.Int32,LibraryManagementTask.Dtos.Patrons.CreateOrUpdatePatronDto)">
+            <summary>
+            Update an existing patron's information.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.PatronsController.DeleteAsync(System.Int32)">
+            <summary>
+            Remove a patron from the system.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.PatronsController.GetByIdAsync(System.Int32)">
+            <summary>
+             Retrieve details of a specific patron by ID.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.PatronsController.GetAllAsync">
+            <summary>
+            Retrieve a list of all patrons.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.UsersController.CreateAsync(LibraryManagementTask.Dtos.Users.CreateUserDto)">
+            <summary>
+             Add a new user to the system.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.UsersController.UpdateAsync(System.Int32,LibraryManagementTask.Dtos.Users.UpdateUserDto)">
+            <summary>
+             Update an existing user's information.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.UsersController.DeleteAsync(System.Int32)">
+            <summary>
+             Remove a user from the system.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.UsersController.GetByIdAsync(System.Int32)">
+            <summary>
+            Retrieve details of a specific user by ID.
+            </summary>
+        </member>
+        <member name="M:LibraryManagementTask.Controllers.UsersController.GetAllAsync">
+            <summary>
+            Retrieve details of a specific user by ID.
+            </summary>
+        </member>
+        <member name="T:LibraryManagementTask.Migrations.Initial">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementTask.Migrations.Initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementTask.Migrations.Initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementTask.Migrations.Initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:LibraryManagementTask.Migrations.Users">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementTask.Migrations.Users.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementTask.Migrations.Users.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:LibraryManagementTask.Migrations.Users.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
